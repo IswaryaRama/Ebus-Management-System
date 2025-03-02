@@ -1,0 +1,17 @@
+{
+  "name": "bus",
+  "version": "1.0.0",
+  "description": "## Overview This project provides real-time bus location tracking and arrival time predictions using Firebase for authentication and data storage.",
+  "main": "firebase-config_firebase.js",
+  "scripts": {
+    "start": "parcel admin.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Driver Panel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Driver Panel</h1>
+  </header>
+  <main>
+    <form id="driver-login">
+      <h2>Driver Login</h2>
+      <input type="email" id="driver-login-email" placeholder="Email" required>
+      <input type="password" id="driver-login-password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <form id="post-bus-info">
+      <h2>Post Bus Information</h2>
+      <input type="text" id="bus-type" placeholder="Bus Type (e.g., AC, Non-AC)" required>
+      <input type="text" id="bus-contact" placeholder="Contact Number" required>
+      <input type="text" id="bus-location" placeholder="Current Location" required>
+      <button type="submit">Post Information</button>
+    </form>
+  </main>
+  <script type="module" src="firebase-config_firebase.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
